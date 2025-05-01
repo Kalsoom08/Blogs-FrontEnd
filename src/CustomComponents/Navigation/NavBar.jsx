@@ -31,14 +31,14 @@ const Navbar = () => {
                     
                    
                     <div className="flex-1 flex justify-center">
-                        <ul className="flex gap-5 text-gray-700 font-semibold">
+                        <ul className="flex gap-5 text-[#409084] font-semibold">
                             {navLinks.map((link) => (
                                 <li key={link.id}>
                                     <NavLink
                                         to={link.url}
                                         className={({ isActive }) =>
-                                            `flex items-center gap-2 px-3 py-1 rounded-md transition-all duration-300 hover:text-[#4c8f93] ${
-                                                isActive ? 'underline decoration-2 underline-offset-4 text-[#042847] transition-all duration-300 font-medium' : ''
+                                            `flex items-center gap-2 px-3 py-1 rounded-md transition-all duration-300 hover:text-[#6aa3a7] ${
+                                                isActive ? 'underline decoration-2 underline-offset-4 text-[#409084] transition-all duration-300 font-medium' : ''
                                             }`
                                         }
                                     >
