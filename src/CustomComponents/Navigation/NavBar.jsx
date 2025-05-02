@@ -12,7 +12,7 @@ const Navbar = () => {
 
     const navLinks = [
         { id: 1, title: 'Blogs', url: '/posts', icon: <FaBlog size={18} /> },
-        { id: 2, title: 'Create', url: '/createPost', icon: <FaPlus size={18} /> },
+        { id: 2, title: 'New Blog', url: '/createPost', icon: <FaPlus size={18} /> },
         { id: 3, title: 'Favorite', url: '/favorities', icon: <FaRegHeart size={18} /> },
         { id: 4, title: 'Bookmark', url: '/bookmarks', icon: <IoBookmarkOutline size={18} /> },
         { id: 5, title: 'Login', url: '/login', icon: <LuLogIn size={18} /> },
