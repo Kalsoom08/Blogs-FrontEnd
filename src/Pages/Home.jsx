@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../CustomComponents/Hero/Hero'
 import FeaturedPost from '../CustomComponents/Post/FeaturedPost'
 import PostCard from '../CustomComponents/Post/PostCard';
+import Categories from '../CustomComponents/Post/PostCategory';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero/>
       <FeaturedPost/>
       <PostCard/>
+    
     </div>
   )
 }
