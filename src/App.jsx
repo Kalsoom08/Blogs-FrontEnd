@@ -11,12 +11,14 @@ import Favorite from './CustomComponents/Post/Favorite';
 import PostDetail from './CustomComponents/Post/PostDetail';
 
 import UserProfile from './Pages/UserProfile';
+ 
+import { Toaster } from 'react-hot-toast';
 
 
-;
 const AppRoutes = () => (
     <>
        <NavBar/>
+       <Toaster position="top-right" reverseOrder={false} />
        <Routes>
        <Route path="/" element={<Home />} />
        <Route path='/posts' element={<Posts/>}/>
