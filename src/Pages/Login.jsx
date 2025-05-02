@@ -15,8 +15,8 @@ const Login = () => {
       return;
     }
 
-    // Simulate login
-    if (email === 'admin@example.com' && password === 'admin123') {
+    
+    if (email === 'abc@gmail.com' && password === 'kalsoom') {
       toast.success('Login successful!');
       navigate('/');
     } else {
